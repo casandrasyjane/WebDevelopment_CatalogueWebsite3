@@ -1,0 +1,275 @@
+* {padding: 0; margin: 0;}
+
+
+menu nav {
+    width: 1000px; 
+    height: 40px; 
+    margin: auto; 
+    padding: 20px;
+}
+
+nav ul li {
+    float: left; 
+    list-style: none; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+ 
+nav ul li a {
+    margin-right: 15px; 
+    text-decoration: none; 
+    padding: 15px 15px; 
+    color: black; 
+}
+
+nav ul li ul {
+    margin-left: -55px;
+    display: none;
+    z-index: 2;
+}
+
+nav ul li:hover ul {
+    display: block; 
+    position: absolute; 
+    background: rgb(113, 113, 107);  
+}
+
+nav {
+    position: relative;
+    line-height: 40px;
+    width: 900px;
+}
+
+nav ul .bagianatas li {
+    font-size: 40px; 
+    margin-right: 100px;
+}
+
+nav ul .others li {
+    font-size: 17px;
+}
+
+nav ul li ul li {
+    float: none;
+    position: relative; 
+    background: white;
+}
+
+nav ul .others li:hover {
+    background: #F6F6F6; 
+}
+
+nav ul .others img {
+    width: 20px; 
+    height: auto; 
+    padding: 5px; 
+}
+
+.ataz {
+    background: #e2f7e6; 
+    padding: 50px 0 50px 0; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.ataz h1 {
+    font-size: 48px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.ataz .line {
+    margin-right: 20px; 
+    border-left: solid black 4px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.ataz .kalimat p {
+    width: 340px; 
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.ataz .kalimat {
+    width: 720px; 
+    margin-left: 20px; 
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.penemu {
+    background: white; 
+    padding: 50px 0 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.penemu p {
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+}
+
+.penemu .gambaran {
+    display: flex; 
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.penemu .gambaran img {
+    padding: 40px; 
+    width: 280px; 
+    height: auto;
+}
+
+.satu {
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+
+.dua {
+    background: white; 
+    padding: 10px 0 30px 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+}
+
+.dua p {
+    font-size: 48px; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.dua .gambaran {
+    display: flex; 
+    justify-content: center;
+}
+
+.dua .gambaran img {
+    padding: 40px; 
+    width: 280px; 
+    height: auto;
+}
+
+.nimbrung {
+    width: 900px; 
+    margin: auto; 
+    background: black; 
+    display: flex; 
+    padding: 50px; 
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.nimbrung h1 {
+    color: white; 
+    font-size: 50px; 
+    width: 400px; 
+    padding: 20px 50px 20px 40px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.button a {
+    padding: 10px; 
+    background: white; 
+    text-decoration: none; 
+    font-size: 16px; 
+    color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.button {
+    margin: 70px 10px 10px 250px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+footer {
+    background: black;
+}
+
+footer .atas {
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    padding: 5px;  
+}
+
+footer .atas .sosmed {
+    width: 300px; 
+    padding: 15px; 
+    font-size: 12px;
+}
+
+footer .atas .poto img {
+    width: 30px; 
+    height: 30px; 
+    float: left; 
+    clip-path: circle(50%); 
+    margin-left: 10px; 
+    transform: translate(-10px, 0px);
+}
+
+footer .atas .poto img:hover {
+    transform: scale(1.2);
+}
+
+footer .atas .sosmed {
+    width: 300px;
+    font-family: arial; 
+}
+
+footer .atas .sosmed h2 {
+    border-bottom: solid white 1px; 
+    padding: 10px; 
+}
+
+footer .atas .sosmed .berita {
+    align-items: center; 
+    gap: 20px; 
+    display: flex; 
+    justify-content: flex-end; 
+    padding: 10px; 
+    transform: translate(-15px, 0px)
+}
+
+footer .atas .sosmed .berita a {
+    text-decoration: none; 
+    color: white; 
+}
+
+footer .atas .sosmed .berita img {
+    width: 40px; 
+    height: 40px; 
+} 
+
+footer .atas .sosmed .tool {
+    position: relative; 
+}
+
+footer .atas .sosmed .tool .tips {
+    display: inline; 
+    padding: 10px;
+}
+
+footer .atas .sosmed p {
+    margin-top: 30px;
+}
+
+input[type=password] {
+    padding: 5px; 
+    font-family: arial;
+}
+
+input[type=submit], button[type=button] {
+    padding: 5px; 
+    font-family: arial;
+}
+
+footer .bawah {
+    color: white; 
+    text-align: center; 
+    font-size: 15px; 
+    line-height: 40px; 
+    height: 40px; 
+    margin-top: 30px;
+    border-top: solid white 1px;
+}

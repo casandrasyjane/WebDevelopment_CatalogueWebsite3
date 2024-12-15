@@ -1,0 +1,441 @@
+* {padding: 0; margin: 0;}
+
+
+menu nav {
+    width: 1000px; 
+    height: 40px; 
+    margin: auto; 
+    padding: 20px;
+}
+
+nav ul li {
+    float: left; 
+    list-style: none; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+ 
+nav ul li a {
+    margin-right: 15px; 
+    text-decoration: none; 
+    padding: 15px 15px; 
+    color: black; 
+}
+
+nav ul li ul {
+    margin-left: -55px;
+    display: none;
+    z-index: 2;
+}
+
+nav ul li:hover ul {
+    display: block; 
+    position: absolute; 
+    background: rgb(113, 113, 107);  
+}
+
+nav {
+    position: relative;
+    line-height: 40px;
+    width: 900px;
+}
+
+nav ul .bagianatas li {
+    font-size: 40px; 
+    margin-right: 100px;
+}
+
+nav ul .others li {
+    font-size: 17px;
+}
+
+nav ul li ul li {
+    float: none;
+    position: relative; 
+    background: white;
+}
+
+nav ul .others li:hover {
+    background: #F6F6F6; 
+}
+
+nav ul .others img {
+    width: 20px; 
+    height: auto; 
+    padding: 5px; 
+}
+
+.bawah {
+    background-color: whitesmoke; 
+    height: 1000px;
+}
+
+.containerbawah{
+    width: 1150px; 
+    margin: auto;
+}
+
+.kiriarticle {
+    width: 700px; 
+    float: left;
+}
+
+.kiriarticle .ka1kiri {
+    width: 500px; 
+    margin: auto;
+    float: left; 
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.kiriarticle .ka1kiri p {
+    font-size: 15px; 
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kiriarticle .ka1kiri p a {
+    text-decoration: none; 
+    color: gray;
+}
+
+.kiriarticle .ka1kiri h1 {
+    font-size: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px; 
+    margin-bottom: 13px;
+}
+
+.kiriarticle .ka1kanan {
+    width: 200px; 
+    margin: auto;
+    float: right; 
+    margin-top: 77px;
+}
+
+select {
+    width: 190px; 
+    font-size: 14px;
+    background-color: white; 
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.ka2 {
+    margin-top: 10px; 
+    width: 700px;
+    height: 300px; 
+    padding: 110px 0px;
+    position: relative;
+}
+
+.ka2 .kiri2 {
+    float: left; 
+    width: 210px;
+    height: 200px;
+}
+
+.ka2 .kiri2 h1 {
+    font-size: 20px; 
+    margin-top: 10px;
+}
+
+.ka2 .kiri2 p {
+    font-size: 10px; 
+    margin-top: 2px;
+}
+
+.ka2 .kiri2 h2 {
+    font-size: 15px; 
+    margin-top: 5px;
+}
+
+.ka2 .tengahtengah {
+    float: left; 
+    width: 210px;
+    height: 200px;
+}
+
+.ka2 .tengahtengah h1 {
+    font-size: 20px; 
+    margin-top: 10px;
+}
+
+.ka2 .tengahtengah p {
+    font-size: 10px; 
+    margin-top: 2px;
+}
+
+.ka2 .tengahtengah h2 {
+    font-size: 15px; 
+    margin-top: 5px;
+}
+
+.ka2 .tengahtengah h2 b {
+    font-size: 13px; 
+    margin-top: 5px;
+    text-decoration: line-through;
+}
+
+.ka2 .kanan2 {
+    float: left; 
+    width: 210px;
+    height: 200px;
+}
+
+.ka2 .kanan2 h1 {
+    font-size: 20px; 
+    margin-top: 10px;
+}
+
+.ka2 .kanan2 p {
+    font-size: 10px; 
+    margin-top: 2px;
+}
+
+.ka2 .kanan2 h2 {
+    font-size: 15px; 
+    margin-top: 5px;
+}
+
+.ka2 img {
+    width: 210px; 
+    height: 210px;
+}
+
+.ka2 .Button {
+    position: absolute; 
+    margin-top: 20px;
+    text-align: left; 
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ka2 .Button a {
+    margin: auto; 
+    text-align: center;
+    width: 200px; 
+    background-color: black;
+    cursor: pointer; 
+    padding: 10px 20px;
+    color: white; 
+    border-radius: 4px; 
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ka5 {
+    width: 700px; 
+    margin-top: 80px;
+    height: 200px; 
+    position: relative;
+    text-align: center;
+}
+
+.ka5 img {
+    width: 40px; 
+    height: 40px;
+    vertical-align: middle;
+}
+
+.kananarticle {
+    width: 400px; 
+    float: right;
+    height: auto; 
+    background-color: white;
+    margin-top: 35px;
+}
+
+.kan1 {
+    width: 350px; 
+    padding: 35px 50px;
+}
+
+.kan1 img {
+    width: 60px; 
+    height: 60px; 
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
+
+.kan1 h1 {
+    font-size: 25px;
+    margin-bottom: 25px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kan1 p a {
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; 
+    color: black;
+}
+
+.ba1 {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px;
+}
+
+.ba2 {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px;
+}
+
+.ba3 {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px;
+}
+
+.ba4 {
+    display: flex; 
+    align-items: center;
+}
+
+.kan2 {
+    float: right; 
+    width: 350px;
+    padding: 35px 50px; 
+    transform: translate(11%, -25%);
+}
+
+.kan2 h1 {
+    font-size: 25px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px; 
+    margin-top: 10px;
+}
+
+.filter {
+    float: right; 
+    width: 350px;
+    padding: 35px 50px; 
+    transform: translate(11%, -25%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input[type=Search] {
+    padding: 11px 15px;
+    width: 240px;
+    margin-right: 10px;
+}
+
+button[type=button] {
+    padding: 10px 15px; 
+    background-color: black; 
+    color: white;
+}
+
+.kan3 {
+    width: 350px; 
+    padding: 35px 50px; 
+    transform: translate(0%, -10%);
+}
+
+.kan3 h1 {
+    font-size: 25px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px; 
+    margin-top: 10px;
+}
+
+.kan3 img {
+    width: 70px; 
+    height: 70px; 
+    transform: translate(-10%, 2%);
+}
+
+footer {
+    background: black;
+}
+
+footer .atas {
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    padding: 5px;  
+}
+
+footer .atas .sosmed {
+    width: 300px; 
+    padding: 15px; 
+    font-size: 12px;
+}
+
+footer .atas .poto img {
+    width: 30px; 
+    height: 30px; 
+    float: left; 
+    clip-path: circle(50%); 
+    margin-left: 10px; 
+    transform: translate(-10px, 0px);
+}
+
+footer .atas .poto img:hover {
+    transform: scale(1.2);
+}
+
+footer .atas .sosmed {
+    width: 300px;
+    font-family: arial; 
+}
+
+footer .atas .sosmed h2 {
+    border-bottom: solid white 1px; 
+    padding: 10px; 
+}
+
+footer .atas .sosmed .berita {
+    align-items: center; 
+    gap: 20px; 
+    display: flex; 
+    justify-content: flex-end; 
+    padding: 10px; 
+    transform: translate(-15px, 0px)
+}
+
+footer .atas .sosmed .berita a {
+    text-decoration: none; 
+    color: white; 
+}
+
+footer .atas .sosmed .berita img {
+    width: 40px; 
+    height: 40px; 
+} 
+
+footer .atas .sosmed .tool {
+    position: relative; 
+}
+
+footer .atas .sosmed .tool .tips {
+    display: inline; 
+    padding: 10px;
+}
+
+footer .atas .sosmed p {
+    margin-top: 30px;
+}
+
+input[type=password] {
+    padding: 5px; 
+    font-family: arial;
+}
+
+input[type=submit], button[type=button] {
+    padding: 5px; 
+    font-family: arial;
+}
+
+footer .bawah {
+    color: white; 
+    text-align: center; 
+    font-size: 15px; 
+    line-height: 40px; 
+    height: 40px; 
+    margin-top: 30px;
+    border-top: solid white 1px;
+    background-color: black;
+}

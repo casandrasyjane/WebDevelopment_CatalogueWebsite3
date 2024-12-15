@@ -1,0 +1,673 @@
+* {padding: 0; margin: 0;}
+
+
+menu nav {
+    width: 1000px; 
+    height: 40px; 
+    margin: auto; 
+    padding: 20px;
+}
+
+nav ul li {
+    float: left; 
+    list-style: none; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+ 
+nav ul li a {
+    margin-right: 15px; 
+    text-decoration: none; 
+    padding: 15px 15px; 
+    color: black; 
+}
+
+nav ul li ul {
+    margin-left: -55px;
+    display: none;
+    z-index: 2;
+}
+
+nav ul li:hover ul {
+    display: block; 
+    position: absolute; 
+    background: rgb(113, 113, 107);  
+}
+
+nav {
+    position: relative;
+    line-height: 40px;
+    width: 900px;
+}
+
+nav ul .bagianatas li {
+    font-size: 40px; 
+    margin-right: 100px;
+}
+
+nav ul .others li {
+    font-size: 17px;
+}
+
+nav ul li ul li {
+    float: none;
+    position: relative; 
+    background: white;
+}
+
+nav ul .others li:hover {
+    background: #F6F6F6; 
+}
+
+nav ul .others img {
+    width: 20px; 
+    height: auto; 
+    padding: 5px; 
+}
+
+article .fotoatas {
+    width: 960px; 
+    margin: auto; 
+}
+
+article .fotoatas .fotobesar img {
+    width: 960px; 
+    height: auto; 
+    margin-top: 10px; 
+    margin: auto;
+    position: relative;
+}
+
+article .fotoatas .fotobesar .diatas {
+    position: absolute;
+    color: white;
+    top: 200px;
+    text-align: center; 
+    padding: 7px; 
+    font-size: 45px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    margin-left: 150px;
+}
+ 
+article .fotoatas .fotobesar .dibawah {
+    position: absolute;
+    top: 290px;
+    color: white; 
+    text-align: center; 
+    padding: 7px; 
+    font-size: 30px; 
+    font-family: arial; 
+    margin-left: 300px;
+}
+ 
+article .fotoatas .fotobesar .tombol {
+    position: absolute;
+top: 350px; 
+    text-align: center; 
+    padding: 7px; 
+    font-size: 25px; 
+    font-family: arial; 
+    background: black; 
+    width: 150px; 
+    height: auto; 
+    margin-left: 400px;
+}
+
+article .fotoatas .fotobesar .tombol a {
+    text-decoration: none; 
+    color: white; 
+}
+
+article .fotoatas .fotobesar .tombol a:hover {
+    color: rgb(113, 113, 107);   
+}
+
+article .barisfoto {
+    width: 1000px; 
+    margin: auto; 
+}
+
+article .barisfoto .fotokecil img {
+    width: 300px; 
+    margin: 15px; 
+}
+
+article .barisfoto .fotokecil .judul { 
+    display: block; 
+    position: absolute; 
+    text-align: center; 
+    font-size: 25px; 
+    top: 25%; 
+    top: 30%; 
+}
+ 
+article .barisfoto .fotokecil {
+    float: left;
+}
+
+article .barisfoto .fotokecil {
+    position: relative;
+}
+
+article .barisfoto .fotokecil .judul {
+    position: absolute; 
+    width: 20%; 
+    height: auto; 
+    font-family: arial;
+    top: 30%; 
+    left: 30%; 
+    right: 30%; 
+    font-size: 30px; 
+    color: white; 
+    text-align: center; 
+    padding: 6px; 
+}
+ 
+article .barisfoto .fotokecil .shopnow {
+    display: block; 
+    position: absolute; 
+    font-size: 14px; 
+    top: 50%; 
+    left: 25%; 
+    right: 25%; 
+    text-align: center; 
+    padding: 7px; 
+    font-family: arial; 
+    font-size: 20px;
+}
+
+article .barisfoto .fotokecil .shopnow a {
+    text-decoration: none; 
+    color: white; 
+}
+
+article .product {
+    width: 1000px;
+    margin: auto; 
+    margin-top: 390px;
+}
+
+article .product .tulisan .popular {
+    float: left; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 28px; 
+    margin-right: 585px;
+}
+
+article .product .tulisan .view a {
+    background: black; 
+    text-decoration: none; 
+    color: white; 
+    padding: 10px; 
+    font-family: arial; 
+    font-size: 20px; 
+}
+
+article .product .tulisan .view a:hover {
+    color: rgb(113, 113, 107);  
+}
+
+article .product .catalog img {
+    float: left; 
+    padding: 15px;
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+article .product .catalog .gambar {
+    float: left;
+}
+
+article .product .catalog .namabarang a {
+    font-size: 20px; 
+    margin-top: 10px; 
+    text-decoration: none; 
+    color: black; 
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 15px;
+}
+
+article .product .catalog .bintang a {
+    text-decoration: none; 
+    padding-left: 15px;
+    color: orange;
+}
+
+article .product .catalog .harga a {
+    font-size: 18px; 
+    margin-top: 10px; 
+    text-decoration: none; 
+    color: black; 
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 15px;
+}
+
+article .product .catalog .harga a s {
+    color: gray; 
+    margin-bottom: 30px;
+}
+
+article .shipment {
+    width: 100%; 
+    background: #F4F6F3; 
+    padding: 15px; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 880px;
+}
+
+article .shipment .pict img {
+    display: block;
+    width: 90px; 
+    height: 90px; 
+    margin: auto; 
+}
+
+article .shipment .pict {
+    padding: 30px; 
+    margin-left: 50px;
+}
+
+article .shipment .pict .ket {
+    text-align: center; 
+    margin-top: 10px; 
+    padding: 15px; 
+    font-family: arial;
+}
+
+article .shipment .pict .ket h2 {
+    font-size: 20px;
+}
+
+article .shipment .pict .ket p {
+    font-size: 15px;
+}
+
+article .profil {
+    width: 1000px; 
+    margin: auto; 
+    padding: 15px; 
+    margin-top: 40px;
+}
+
+article .profil .kiri {
+    float: left; 
+    width: 490px; 
+    margin-top: 30px;
+}
+
+article .profil .kiri h3 {
+    font-family: arial; 
+    padding: 5px; 
+    font-size: 20px; 
+    color: #2e0c26;
+    margin-right: 30px;
+}
+
+article .profil .kiri h1 {
+    font-family: arial; 
+    padding: 5px; 
+    font-size: 30px; 
+    color: #2e0c26;
+    margin-right: 30px;
+}
+
+article .profil .kiri p {
+    font-family: arial; 
+    padding: 5px; 
+    margin-bottom: 40px; 
+    color: #2e0c26;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+article .profil .kanan img {
+    width: 450px; 
+    padding: 5px;
+}
+
+article .profil .kiri .tombol2 {
+    padding: 5px;
+}
+
+article .profil .kiri .tombol2 a {
+    background: black; 
+    text-decoration: none; 
+    color: white; 
+    padding: 10px; 
+    font-family: arial; 
+    font-size: 20px; 
+    border-radius: 5px;
+}
+
+article .profil .kiri .tombol2 a:hover {
+    color: rgb(113, 113, 107);  
+}
+
+.container6luar {
+    width:100%;
+    height: 500px;
+    background-color: rgb(208, 207, 209);
+}
+
+.container6{
+    width: 1000px;
+    background-color: rgb(208, 207, 209);
+    height:500px;
+    margin: auto;
+}
+
+.container6 .trendingtoday{
+    margin-bottom: 20px;
+    color: turquoise;
+
+    
+}
+
+.container6 .gambartrending{
+    background-color:  rgb(208, 207, 209);
+    height:200px;
+}
+
+.container6 .gambartrendingbawah{
+    background-color: rgb(208, 207, 209);
+    height:200px;
+}
+
+.container6 .gambartrending .gambartrending1{
+    background-color: white;
+    height:180px;
+    width: 480px;
+    float: left;
+}
+
+.container6 .gambartrending .gambartrending2{
+    background-color: white;
+    height:180px;
+    width: 480px;
+    float: right;
+}
+
+.container6 .gambartrendingbawah .gambartrending1{
+    background-color: white;
+    height:180px;
+    width: 480px;
+    float: left;
+}
+
+.container6 .gambartrendingbawah .gambartrending2{
+    background-color: white;
+    height:180px;
+    width: 480px;
+    float: right;
+}
+
+.container6 .gambartrending img {
+    width: 200px;
+    height: 180px;
+}
+
+.container6 .gambartrendingbawah img {
+    width: 200px;
+    height: 180px;
+}
+
+.container6 .gambarkiri {
+    width: 200px;
+    height: 180px;
+    float: left;
+}
+
+
+
+.container6 .tulisankanan  {
+    width: 260px;
+    height: 180px;
+    background-color: white;
+    float: right;
+    padding-left:15px;
+}
+
+.container6 .tulisankanan .kananatas1 {
+    background-color: white;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.container6 .namatrending{
+    float: left;
+    background-color: rgb(208, 207, 209);
+    padding: 4px;
+    border-radius: 12px;
+}
+.container6 .heartimage img{
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+.container6 .tulisankanan .kananbawah1 {
+    background-color: white;
+    height: 100px;
+}
+
+.container6 .tulisankanan .kananbawah1 h3 {
+    color:turquoise;
+}
+
+
+article .testimoni {
+    background: #F4F6F3; 
+    padding: 15px; 
+    margin-top: 60px; 
+    height: 450px;
+    margin-bottom: 35px;
+}
+
+article .testimoni .atas {
+    text-align: center; 
+    padding: 25px; 
+    font-family: arial; 
+    margin-bottom: 35px;
+}
+
+article .testimoni .bawah { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+article .testimoni .bawah .orang {
+    background: white; 
+    padding: 15px; 
+    width: 25%; 
+    border-radius: 10px; 
+    max-width: 300px;
+}
+
+article .testimoni .bawah .orang2 {
+    background: black; 
+    padding: 15px; 
+    width: 25%; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+    border-radius: 10px; 
+    max-width: 300px;
+    color: orange;
+}
+
+article .testimoni .bawah img {
+    width: 50px; 
+    height: 50px; 
+    clip-path: circle(50%);
+}
+
+article .testimoni .bawah .bawahbgt {
+    display: flex; 
+    align-items: center; 
+    gap: 20px;
+    color: black; 
+}
+
+article .testimoni .bawah .orang .komen {
+    font-family: arial; 
+    font-size: 14px; 
+    line-height: 2; 
+    margin: 25px 0 25px 0;
+}
+
+article .testimoni .bawah .orang .fname {
+    font-family: arial;
+}
+
+article .testimoni .bawah .orang .lname {
+    margin-bottom: 10px; 
+    font-family: arial;
+}
+
+article .testimoni .bawah .orang2 .komen2 {
+    color: white; 
+    font-family: arial; 
+    font-size: 14px; 
+    line-height: 2; 
+    margin: 25px 0 25px 0;
+}
+
+article .testimoni .bawah .orang2 .fname2 {
+    color: white; 
+    font-family: arial;
+}
+
+article .testimoni .bawah .orang2 .lname2 {
+    color: white; 
+    margin-bottom: 10px; 
+    font-family: arial;
+}
+
+article .kananterus .kalimat .real p {
+    background-color: rgb(206, 206, 206);
+    color: black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background: black;
+}
+
+footer .atas {
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    padding: 5px;  
+}
+
+footer .atas .sosmed {
+    width: 300px; 
+    padding: 15px; 
+    font-size: 12px;
+}
+
+footer .atas .poto img {
+    width: 30px; 
+    height: 30px; 
+    float: left; 
+    clip-path: circle(50%); 
+    margin-left: 10px; 
+    transform: translate(-10px, 0px);
+}
+
+footer .atas .poto img:hover {
+    transform: scale(1.2);
+}
+
+footer .atas .sosmed {
+    width: 300px;
+    font-family: arial; 
+}
+
+footer .atas .sosmed h2 {
+    border-bottom: solid white 1px; 
+    padding: 10px; 
+}
+
+footer .atas .sosmed .berita {
+    align-items: center; 
+    gap: 20px; 
+    display: flex; 
+    justify-content: flex-end; 
+    padding: 10px; 
+    transform: translate(-15px, 0px)
+}
+
+footer .atas .sosmed .berita a {
+    text-decoration: none; 
+    color: white; 
+}
+
+footer .atas .sosmed .berita img {
+    width: 40px; 
+    height: 40px; 
+} 
+
+footer .atas .sosmed .tool {
+    position: relative; 
+}
+
+footer .atas .sosmed .tool .tips {
+    display: inline; 
+    padding: 10px;
+}
+
+footer .atas .sosmed p {
+    margin-top: 30px;
+}
+
+input[type=password] {
+    padding: 5px; 
+    font-family: arial;
+}
+
+input[type=submit], button[type=button] {
+    padding: 5px; 
+    font-family: arial;
+}
+
+footer .kontak .tulisan p {
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: white;
+}
+
+footer .kontak .deskripsinya h1 {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: white;
+}
+
+footer .kontak .button {
+    background-color: rgb(90, 162, 204); 
+    text-decoration: none; 
+    color: white; 
+    padding: 10px; 
+    font-family: arial; 
+    font-size: 10px; 
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer .bawah {
+    color: white; 
+    text-align: center; 
+    font-size: 15px; 
+    line-height: 40px; 
+    height: 40px; 
+    margin-top: 30px;
+    border-top: solid white 1px;
+}

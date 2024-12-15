@@ -1,0 +1,225 @@
+* {padding: 0; margin: 0;}
+
+
+menu nav {
+    width: 1000px; 
+    height: 40px; 
+    margin: auto; 
+    padding: 20px;
+}
+
+nav ul li {
+    float: left; 
+    list-style: none; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+ 
+nav ul li a {
+    margin-right: 15px; 
+    text-decoration: none; 
+    padding: 15px 15px; 
+    color: black; 
+}
+
+nav ul li ul {
+    margin-left: -55px;
+    display: none;
+    z-index: 2;
+}
+
+nav ul li:hover ul {
+    display: block; 
+    position: absolute; 
+    background: rgb(113, 113, 107);  
+}
+
+nav {
+    position: relative;
+    line-height: 40px;
+    width: 900px;
+}
+
+nav ul .bagianatas li {
+    font-size: 40px; 
+    margin-right: 100px;
+}
+
+nav ul .others li {
+    font-size: 17px;
+}
+
+nav ul li ul li {
+    float: none;
+    position: relative; 
+    background: white;
+}
+
+nav ul .others li:hover {
+    background: #F6F6F6; 
+}
+
+nav ul .others img {
+    width: 20px; 
+    height: auto; 
+    padding: 5px; 
+}
+
+.akun {
+    background-color: whitesmoke; 
+    height: 430px;
+    padding: 40px;
+}
+
+form {
+    background: white; 
+    padding: 40px; 
+    width: 1070px; 
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form .form2 input {
+    margin: 2px; line-height: 35px; width: 1050px;
+}
+
+form .form2 input.inputText {
+    padding: 0 0 0 10px;
+}
+
+.apaini input {
+    width: 10px; 
+    margin-top: 20px; 
+    margin-left: 70px;
+}
+
+.Button {
+    position: absolute; 
+    margin-top: 20px;
+    text-align: left;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Button a {
+    margin: auto; 
+    text-align: center;
+    width: 200px; 
+    background-color: black;
+    cursor: pointer; 
+    padding: 8px 12px;
+    color: white; 
+    border-radius: 4px; 
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form p {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+form p a {
+    color: black;
+}
+
+form h1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+form h2 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+footer {
+    background: black;
+}
+
+footer .atas {
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    padding: 5px;  
+}
+
+footer .atas .sosmed {
+    width: 300px; 
+    padding: 15px; 
+    font-size: 12px;
+}
+
+footer .atas .poto img {
+    width: 30px; 
+    height: 30px; 
+    float: left; 
+    clip-path: circle(50%); 
+    margin-left: 10px; 
+    transform: translate(-10px, 0px);
+}
+
+footer .atas .poto img:hover {
+    transform: scale(1.2);
+}
+
+footer .atas .sosmed {
+    width: 300px;
+    font-family: arial; 
+}
+
+footer .atas .sosmed h2 {
+    border-bottom: solid white 1px; 
+    padding: 10px; 
+}
+
+footer .atas .sosmed .berita {
+    align-items: center; 
+    gap: 20px; 
+    display: flex; 
+    justify-content: flex-end; 
+    padding: 10px; 
+    transform: translate(-15px, 0px)
+}
+
+footer .atas .sosmed .berita a {
+    text-decoration: none; 
+    color: white; 
+}
+
+footer .atas .sosmed .berita img {
+    width: 40px; 
+    height: 40px; 
+} 
+
+footer .atas .sosmed .tool {
+    position: relative; 
+}
+
+footer .atas .sosmed .tool .tips {
+    display: inline; 
+    padding: 10px;
+}
+
+footer .atas .sosmed p {
+    margin-top: 30px;
+}
+
+input[type=password] {
+    padding: 5px; 
+    font-family: arial;
+}
+
+input[type=submit], button[type=button] {
+    padding: 5px; 
+    font-family: arial;
+}
+
+footer .bawah {
+    color: white; 
+    text-align: center; 
+    font-size: 15px; 
+    line-height: 40px; 
+    height: 40px; 
+    margin-top: 30px;
+    border-top: solid white 1px;
+}
